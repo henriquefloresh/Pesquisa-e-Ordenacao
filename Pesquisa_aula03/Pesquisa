@@ -1,0 +1,94 @@
+pesquisar na literatura, internet ou IA Generativa sobre os métodos de ordenação e categoriza-los em:
+    - algoritmo de memória interna ou memória externa
+    - estabilidade (estável ou instável)
+    - complexidade
+    - porções de ordenação
+
+
+- pente (CombSort)
+    - memória interna
+    - instável
+    - complexidade: melhor caso O(n log n); médio e pior caso O(n²)
+    - porção ordenada: final (semelhante ao Bubble Sort, utilizando lacunas "gaps")
+
+- agitação (ShakeSort ou Cocktail Sort)
+    - memória interna
+    - estável
+    - complexidade: melhor caso O(n); médio e pior caso O(n²)
+    - porção ordenada: início e final (ordena nos dois sentidos da lista)
+
+- shellsort (Shell Sort)
+    - memória interna
+    - instável
+    - complexidade: depende da sequência de gaps; pior caso O(n²)
+    - porção ordenada: sublistas (elementos separados por intervalos são ordenados)
+
+- bucketsort (Bucket Sort)
+    - memória interna (pode ser adaptado para memória externa)
+    - estável (quando utiliza um algoritmo estável dentro dos baldes)
+    - complexidade: melhor e médio caso O(n+k); pior caso O(n²)
+    - porção ordenada: baldes (os elementos são distribuídos em grupos antes da ordenação)
+
+- radix (Radix Sort)
+    - memória interna
+    - estável
+    - complexidade: O(d(n+k))
+    - porção ordenada: dígitos (ordena um dígito por vez)
+
+- heapsort (Heap Sort)
+    - memória interna
+    - instável
+    - complexidade: O(n log n)
+    - porção ordenada: final (o maior elemento é colocado na última posição a cada etapa)
+
+- mergesort (Merge Sort)
+    - memória interna (e memória externa em grandes volumes de dados)
+    - estável
+    - complexidade: O(n log n)
+    - porção ordenada: sublistas (divide a lista em partes e depois intercala)
+
+- quicksort (Quick Sort)
+    - memória interna
+    - instável
+    - complexidade: melhor e médio caso O(n log n); pior caso O(n²)
+    - porção ordenada: particionamento (organiza os elementos em torno de um pivô)
+
+
+eficiente versus eficaz 
+    - ambos atingem objetivos
+
+qual o melhor algoritmo de ordenação?
+    Depende:
+        - do tamanho da estrutura
+        - do quanto já está ordenado
+
+
+Cenários de um processo de ordenação
+    - pior caso
+        bolha - lista ordenada decrescente e se desejar ordenar crescente
+        seleção - lista ordenada
+        inserção - lista ordenada decrescente e se desejar ordenar crescente
+        pente (CombSort)
+        - lista em ordem inversa ou muito desordenada
+        - complexidade: O(n²)
+        agitação (ShakeSort ou Cocktail Sort)
+        - lista ordenada em ordem decrescente quando se deseja ordenar em ordem crescente
+        - complexidade: O(n²)
+        shellsort (Shell Sort)
+        - depende da sequência de gaps utilizada; pode ocorrer com listas muito desordenadas
+        - complexidade: O(n²)
+        bucketsort (Bucket Sort)
+        - todos ou quase todos os elementos são distribuídos para o mesmo balde
+        - complexidade: O(n²)
+        radix (Radix Sort)
+        - independe da ordem inicial dos elementos; depende apenas da quantidade de dígitos
+        - complexidade: O(d(n+k))
+        heapsort (Heap Sort)
+        - qualquer disposição da lista
+        - complexidade: O(n log n)
+        mergesort (Merge Sort)
+        - qualquer disposição da lista
+        - complexidade: O(n log n)
+        quicksort (Quick Sort)
+        - pivô escolhido é sempre o menor ou o maior elemento (ex.: lista já ordenada usando o primeiro ou último elemento como pivô)
+        - complexidade: O(n²)
