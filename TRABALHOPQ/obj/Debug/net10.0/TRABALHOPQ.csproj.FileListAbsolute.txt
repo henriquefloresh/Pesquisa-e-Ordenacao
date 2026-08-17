@@ -1,0 +1,14 @@
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.AssemblyInfoInputs.cache
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.AssemblyInfo.cs
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\Downloads\TRABALHOPQ\bin\Debug\net10.0\TRABALHOPQ.exe
+C:\Users\laboratorio\Downloads\TRABALHOPQ\bin\Debug\net10.0\TRABALHOPQ.deps.json
+C:\Users\laboratorio\Downloads\TRABALHOPQ\bin\Debug\net10.0\TRABALHOPQ.runtimeconfig.json
+C:\Users\laboratorio\Downloads\TRABALHOPQ\bin\Debug\net10.0\TRABALHOPQ.dll
+C:\Users\laboratorio\Downloads\TRABALHOPQ\bin\Debug\net10.0\TRABALHOPQ.pdb
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.dll
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\refint\TRABALHOPQ.dll
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.pdb
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\TRABALHOPQ.genruntimeconfig.cache
+C:\Users\laboratorio\Downloads\TRABALHOPQ\obj\Debug\net10.0\ref\TRABALHOPQ.dll
