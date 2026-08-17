@@ -1,0 +1,22 @@
+No terminal, execute:
+  dotnet new console --force
+
+Esse comando pode recriar o Program.cs, então depois abra o Program.cs e coloque novamente:
+  using ComparacaoOrdenacao.Controllers;
+
+  namespace ComparacaoOrdenacao
+  {
+      public class Program
+      {
+          public static void Main(string[] args)
+          {
+              OrdenacaoController controller =
+                  new OrdenacaoController();
+
+              controller.Executar();
+          }
+      }
+  }
+
+Depois execute:
+  dotnet run
