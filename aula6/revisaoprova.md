@@ -21,6 +21,7 @@ Código em Comparable e CompareTo:
 (Questão seguinte a essa é bolha ou pode ser inserção, questão que te da um vetor e é pra dizer qual é o tipo melhor de ser ordenado)
 
 Método de agitação e método paint: 
+
   Agitação:
   - Variação do Bubble Sort que percorre o array nos dois sentidos alternadamente (ida e volta), "agitando" os elementos.
   - Uma passada da esquerda pra direita leva o maior valor pro final
