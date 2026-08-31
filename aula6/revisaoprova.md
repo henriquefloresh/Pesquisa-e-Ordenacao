@@ -22,14 +22,15 @@ Código em Comparable e CompareTo:
 
 Método de agitação e método paint: 
   Agitação:
-      - Variação do Bubble Sort que percorre o array nos dois sentidos alternadamente (ida e volta), "agitando" os elementos.
-      - Uma passada da esquerda pra direita leva o maior valor pro final
-      - Uma passada da direita pra esquerda leva o menor valor pro início
-      - Repete até não haver mais trocas
+  - Variação do Bubble Sort que percorre o array nos dois sentidos alternadamente (ida e volta), "agitando" os elementos.
+  - Uma passada da esquerda pra direita leva o maior valor pro final
+  - Uma passada da direita pra esquerda leva o menor valor pro início
+  - Repete até não haver mais trocas
+    
   Paint:
-      - Método usado em componentes gráficos (Java AWT/Swing) para desenhar o conteúdo de um componente na tela.
-      - É chamado automaticamente pelo Java sempre que o componente precisa ser redesenhado (ex: ao abrir a janela, redimensionar, etc)
-      - Recebe um objeto Graphics, usado para desenhar formas, texto e imagens
+  - Método usado em componentes gráficos (Java AWT/Swing) para desenhar o conteúdo de um componente na tela.
+  - É chamado automaticamente pelo Java sempre que o componente precisa ser redesenhado (ex: ao abrir a janela, redimensionar, etc)
+  - Recebe um objeto Graphics, usado para desenhar formas, texto e imagens
       
   A principal inovação do algoritmo paint: Usa recursão para propagar o preenchimento automaticamente por toda uma região conectada, sem precisar pintar célula por célula manualmente.
 
