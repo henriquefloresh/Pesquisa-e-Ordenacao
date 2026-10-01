@@ -13,6 +13,8 @@ public class Principal{
 
         int numeroPesquisa = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero inteiro para pesquisar:"));
         JOptionPane.showMessageDialog(null, "Resultado:  " + lista.contains(numeroPesquisa) + " " + Ordenacao.pesquisaBinaria(numeroPesquisa, lista));
+
+        System.exit(1);
             
     }
 }
