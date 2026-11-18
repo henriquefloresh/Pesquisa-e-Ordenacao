@@ -1,0 +1,21 @@
+RELATÓRIO DE TEMPOS - PESQUISA E ORDENAÇÃO
+Gerado em 18/11/2026 17:36 | Java 21.0.12.1 | Linux | 1 núcleos
+
+Ordenação: mediana de várias execuções (1 execução do algoritmo simples com 50.000).
+Busca: tempo médio de 1000 buscas por ids sorteados, mediana de 7 rodadas.
+
+| Operação                                       |     1.000 |     10.000 |   50.000 |
+|------------------------------------------------|-----------|------------|----------|
+| Ordenação simples (por preço) - Insertion Sort |  1,615 ms | 107,478 ms |  1,960 s |
+| Ordenação eficiente (por preço) - Merge Sort   | 106,26 µs |   6,462 ms | 8,572 ms |
+| Busca linear por id (média)                    |    373 ns |    4,17 µs | 34,03 µs |
+| Busca binária por id (média)                   |     89 ns |     130 ns |   149 ns |
+| Busca por HashMap (média)                      |     47 ns |      32 ns |    33 ns |
+| Construção do HashMap                          | 164,04 µs |   1,007 ms | 2,403 ms |
+
+Análise (50.000 registros):
+1) Mais rápida: HashMap (33 ns por busca); linear 34,03 µs, binária 149 ns, HashMap 33 ns.
+2) Por quê: o HashMap calcula o hash da chave e acessa o elemento direto, sem percorrer a lista (linear O(n), binária O(log n), HashMap O(1) em média).
+3) Custo do HashMap: construí-lo leva 2,403 ms (O(n) e memória extra), o equivalente a ~71 buscas lineares.
+4) Vale a pena com muitas consultas sobre os mesmos dados: a partir de ~71 buscas o HashMap já compensa o custo de construção.
+5) Com poucas buscas ou dados que mudam sempre, a linear basta; a binária também paga o custo de ordenar (Merge Sort ~8,572 ms).
